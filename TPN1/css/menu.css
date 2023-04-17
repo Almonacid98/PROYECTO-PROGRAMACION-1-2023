@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 1;
+    left: 0;
+    right: 0;
+    background: #ee732c;
+    padding: 0rem;
+    opacity: 0.9;
+  }
+  
+  /* Estilos móvil/celular */
+  @media all and (max-width: 700px) {
+  
+    /* Oculta el nav en la parte izquiera */
+.nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgb(237, 211, 9);
+      transform: translateX(-100vw);
+      transition: 2s;
+    }
+  
+    /* Muestra el nav */
+.nav--show {
+      transform: translateX(2);
+    }
+  
+.nav__button {
+      text-align: right;
+      margin: 0rem;
+    }
+  
+.nav__ul {
+      list-style: none;
+      padding: 1;
+      margin: 1;
+    }
+  
+.nav__link {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+  }
+  
+  /* Estilos Escritorio */
+@media all and (min-width: 701px) {
+  
+    /* Oculta botón de abrir o cerrar */
+.nav__button,
+.header__button-nav--open {
+      display: none;
+    }
+  
+    /* Adapta el nav en horizontal */
+.nav__ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+  
+.nav__link {
+      display: block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: black;
+      transition: 1s;
+    }
+  
+.nav__link:hover {
+      opacity: 0.5;
+    }
+  }
