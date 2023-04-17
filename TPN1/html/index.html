@@ -6,11 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La primer pagina web</title>
     <link rel="stylesheet" href="/css/fondo.css">
+    <link rel="stylesheet" href="/css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body> 
+    <!-- Header -->
+    <header x-data="{ open: false }" class="header">
+        <!-- Logo -->
+        <div class="header__logo">
+            <H1><a href="index.html"><img src="/images/pngtree-food-logo-png-image_5687717.png" width="50" height="50"></a></H1>
+        </div>
+        <!-- Boton abrir -->
+        <button class="header__button-nav--open", x-on:click="open = true">Abrir</button>
+        <!-- Navegador -->
+        <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
+          <!-- Boton cerrar -->
+          <div class="nav__button", x-on:click="open = false">
+            <button class="header__button-nav--close">Cerrar</button>
+          </div>
+          <!-- Menu -->
+          <ul class="nav__ul">
+            <li class="nav__item"><a href="index.html" class="nav__link">Menu Principal</a></li>
+            <li class="nav__item"><a href="otra_pagina.html" class="nav__link">Carta: Platos</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Sobre Nosotros</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Redes sociales</a></li>
+          </ul>
+        </nav>
+        <!-- Fin Navegador -->
+      </header>
+      <!-- Fin Header -->
+    <br>
     <H1>Bienvenidos<H1>
     <br>
     <H1>Ingrese sus datos para realizar un pedido</H1>
