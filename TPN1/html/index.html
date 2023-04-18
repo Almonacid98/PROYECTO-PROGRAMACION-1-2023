@@ -19,7 +19,8 @@
             <H1><a href="index.html"><img src="/images/pngtree-food-logo-png-image_5687717.png" width="50" height="50"></a></H1>
         </div>
         <!-- Boton abrir -->
-        <button class="header__button-nav--open", x-on:click="open = true"><img src="/images/menu.png" height="20" width="20" style="background-color: #fff;"></button>
+    
+        <button class="header__button-nav--open", x-on:click="open = true"><img src="/images/3388823.png" height="30" width="30"></button>
         <!-- Navegador -->
         <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
           <!-- Boton cerrar -->
@@ -31,27 +32,22 @@
             <li class="nav__item"><a href="otra_pagina.html" class="nav__link">Carta: Platos</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Sobre Nosotros</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Contactanos</a></li>
-            <!--<li class="nav__item"><a href="#" class="nav__link"><img src="/images/cart_transparent.png" width="50" height="50"></a></li>-->
             <div class="dropdown">
               <button type="button"><img src="/images/cart_transparent.png" height="45" width="45"></button>
             <div class="dropdown-content">
-              <a><p style="color: #fff;">Para compartir</p></a>
-              <a><p style="color: #fff;">Individuales</p></a>
-              <a><p style="color: #fff;">Tragos y Cocteles</p></a>
-              <a><p style="color: #fff;">Bebidas Premium</p></a>
-              <a><p style="color: #fff;">Nuestras Cervezas</p></a>
+              <a><p style="color: #ac1616;">Agregar a carrito</p></a>
             </div>
             </div>
-            
           </ul>
         </nav>
         <!-- Fin Navegador -->
       </header>
       <!-- Fin Header -->
     <br>
-    <H1>Bienvenidos<H1>
     <br>
-    <H1>Ingrese sus datos para realizar un pedido</H1>
+    <br>
+    <br>
+    <H1>Registro final de pedidos</H1>
     <!--Formularios-->
     <br>
     <from action="/formulario" methods="get">
@@ -66,9 +62,5 @@
         <input type="submit">
     </from>  
     <br>
-    <!--Referencia a una pagina interna-->
-    <br>
-    <H1><a href="otra_pagina.html" target="_blank">Ingrese para ver la carta principal</a></H1>
-    
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/Restaurant-tables-chairs-HDR-style_3840x2160.jpg');
+    background-image: url('/images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -19,15 +19,9 @@ from {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+
 }
 ::placeholder{
     color: #000000;
   }
-/*.header__button-nav--open{
-      display: none;
-      background-color: transparent;
-      cursor: pointer;
-      border: 1px solid #3894db;
-      box-shadow: 0 6px 6px rgba(0,0,0,0.6);      
-    }

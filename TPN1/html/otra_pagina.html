@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="/css/fondo_2.css">
 </head>
 <body> 
-  <!-- Header -->
   <header x-data="{ open: false }" class="header">
       <!-- Logo -->
       <div class="header__logo">
           <H1><a href="index.html"><img src="/images/pngtree-food-logo-png-image_5687717.png" width="50" height="50"></a></H1>
       </div>
       <!-- Boton abrir -->
-      <button class="header__button-nav--open", x-on:click="open = true"><img src="/images/menu.png" style="background-color: transparent;"></button>
+      <button class="header__button-nav--open", x-on:click="open = true"><img src="/images/3388823.png" height="30" width="30"></button>
       <!-- Navegador -->
       <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
         <!-- Boton cerrar -->
@@ -27,22 +26,21 @@
           <div class="dropdown">
             <button type="button"><img src="/images/margarita_glass_transparent.png" height="70" width="70"></button>
             <div class="dropdown-content">
-              <a><p style="color: white;">Vinos</p></a>
-              <a><p style="color: white;">Whiskies</p></a>
-              <a><p style="color: white;">Cocteles</p></a>
+              <a><p style="color: rgb(0, 0, 0);">Vinos</p></a>
+              <a><p style="color: rgb(0, 0, 0);">Whiskies</p></a>
+              <a><p style="color: rgb(0, 0, 0);">Cocteles</p></a>
             </div>
           </div>
           <div class="dropdown">
             <button type="button"><img src="/images/beer_glass.png" height="70" width="70"></button>
             <div class="dropdown-content">
-              <a><p style="color: white;">Artesanales</p></a>
-              <a><p style="color: white;">Industriales</p></a>
+              <a><p style="color: rgb(0, 0, 0);">Artesanales</p></a>
+              <a><p style="color: rgb(0, 0, 0);">Industriales</p></a>
             </div>
           </div>
           <li class="nav__item"><a href="#" class="nav__link">Sobre Nosotros</a></li>
           <li class="nav__item"><a href="#" class="nav__link">Contactanos</a></li>
-          <hr>
-          <li class="nav__item"><a href="#" class="nav__link">- </a></li>
+
         </ul>
       </nav>
       <!-- Fin Navegador -->
