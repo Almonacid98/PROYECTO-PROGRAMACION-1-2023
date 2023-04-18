@@ -59,6 +59,10 @@
 .nav__button,
 .header__button-nav--open {
       display: none;
+      background-color: transparent;
+      cursor: pointer;
+      border: 1px solid transparent;
+      
     }
   
     /* Adapta el nav en horizontal */
@@ -109,6 +113,3 @@
     color: #FFFFFF;
     background-color: #00A4BD;
   }
-::placeholder{
-  color: #000000;
-}
