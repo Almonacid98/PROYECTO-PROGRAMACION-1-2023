@@ -19,7 +19,7 @@
             <H1><a href="index.html"><img src="/images/pngtree-food-logo-png-image_5687717.png" width="50" height="50"></a></H1>
         </div>
         <!-- Boton abrir -->
-        <button class="header__button-nav--open", x-on:click="open = true">Abrir</button>
+        <button class="header__button-nav--open", x-on:click="open = true"><img src="/images/menu.png" height="20" width="20" style="background-color: #fff;"></button>
         <!-- Navegador -->
         <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
           <!-- Boton cerrar -->
@@ -56,12 +56,12 @@
     <br>
     <from action="/formulario" methods="get">
         <label for="nombre y apellido">Nombre y Apellido</label>
-        <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Ingresar nombre y apellido"/>
+        <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Ingresar nombre y apellido" style="background-color: blueviolet;"/>
         <br>
         <label for="Pedido">Pedido</label>
-        <input type="text" id="Pedido" name="Pedido" placeholder="Ingresar Pedido"/>
+        <input type="text" id="Pedido" name="Pedido" placeholder="Ingresar Pedido" style="background-color: blueviolet;"/>
         <br>
-        <textarea cols="35" rows="15">comentario</textarea>
+        <textarea cols="35" rows="15" style="background-color: blueviolet;">comentario</textarea>
         <br>
         <input type="submit">
     </from>  

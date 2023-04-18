@@ -109,3 +109,6 @@
     color: #FFFFFF;
     background-color: #00A4BD;
   }
+::placeholder{
+  color: #000000;
+}
