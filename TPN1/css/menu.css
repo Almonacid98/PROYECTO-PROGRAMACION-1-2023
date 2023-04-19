@@ -88,7 +88,18 @@
     color: #FFFFFF;
     background-color: #f7ff09;
   }
-
+ul {
+    padding-left: 1rem;
+    list-style-type: none;
+  }
+  
+ul li {
+    padding-left: 2rem;
+    background-image: url(/images/viñetas.webp);
+    background-position: 1 4;
+    background-size: 1.7rem 1.0rem;
+    background-repeat: no-repeat;
+  }
   /* Estilos Escritorio */
 @media all and (min-width: 701px) {
   
@@ -128,7 +139,7 @@
     display: inline-block;
     position: relative;
   }
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position:absolute;
     width: 100%;
@@ -136,16 +147,16 @@
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(239, 21, 21, 0.4);
   }
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropdown-content a {
+.dropdown-content a {
     display: block;
     color: #000000;
     padding: 5px;
     text-decoration: none;
   }
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     color: #f61313;
     background-color: #c87f18;
   }

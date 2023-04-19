@@ -9,7 +9,13 @@ body {
 h1 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    color: cornflowerblue;
+    color: rgb(153, 101, 27);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(153, 101, 27);
 }
 
 from {
@@ -20,8 +26,10 @@ from {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-
 }
+
 ::placeholder{
     color: #000000;
   }
+
+
