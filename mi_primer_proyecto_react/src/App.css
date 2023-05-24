@@ -36,6 +36,10 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-image: url(../images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp);
+  background-size: cover;
+}
 .header {
   display: flex;
   justify-content: space-between;
