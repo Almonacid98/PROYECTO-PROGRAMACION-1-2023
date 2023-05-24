@@ -95,7 +95,7 @@ ul {
   
 ul li {
     padding-left: 2rem;
-    background-image: url(./images/viñetas.webp);
+    background-image: url(../images/viñetas.webp);
     background-position: 1 4;
     background-size: 1.7rem 1.0rem;
     background-repeat: no-repeat;
@@ -160,3 +160,28 @@ ul li {
     color: #f61313;
     background-color: #c87f18;
   }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: rgb(95, 42, 6);
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form input,
+  .form textarea {
+    background-image: url('../images/logo.png');
+    opacity: 0.9;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #a41414;
+    opacity: 0.8;
+  }
+  

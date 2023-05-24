@@ -1,15 +1,16 @@
 import React from "react";
 import { Ola } from "./components/Ola.js";
-import { NavbarCustom } from "./components/NavbarCustom.js";
+import { NavbarBootstrap } from "./components/Navbar.js";
 import { ButtonExample } from "./utils/Button.js";
 import { Menu } from "./components/Menu.jsx"
-
-export const App = () => {
+import { Card } from "./components/Card.js"
+function App() {
   return (
    <div>
-    <NavbarCustom/>
+    <NavbarBootstrap/>
     <Menu>
     </Menu>
    </div>
-  )
+  );
 }
+export default App;
