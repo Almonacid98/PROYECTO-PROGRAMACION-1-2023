@@ -8,12 +8,12 @@ export const NavbarCustom = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">FAST SERVICE
-          <img 
-            src="./images/pngtree-food-logo-png-image_5687717.png"
-            width="50"
-            height="50"
-            className="d-inline-block align-top"
-            alt="Logo"/>
+            <img 
+              src={require(`../images/pngtree-food-logo-png-image_5687717.png`)}
+              width="100"
+              height="100"
+              className="d-inline-block align-top"
+              alt="logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
