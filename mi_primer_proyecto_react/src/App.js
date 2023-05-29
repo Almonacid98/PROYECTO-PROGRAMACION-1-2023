@@ -1,15 +1,15 @@
 import React from "react";
-import { Ola } from "./components/Ola.js";
-import { NavbarFlor } from "./components/NavbarFlor.js";
-import { ButtonExample } from "./utils/Button.js";
+import { NavbarBootstrap } from "./components/Navbar.js";
+import { Login } from "./components/LoginSignUp/Login.jsx";
+import { SignUp } from "./components/LoginSignUp/SignUp.jsx";
 import { Menu } from "./components/Menu.jsx"
-import { Card } from "./components/Card.js"
 function App() {
   return (
    <div>
-    <NavbarFlor/>
-    <Menu>
-    </Menu>
+    <NavbarBootstrap/>
+    <Menu/>
+    <Login/>
+    <SignUp/>
    </div>
   );
 }

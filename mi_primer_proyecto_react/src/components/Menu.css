@@ -1,6 +1,6 @@
 body {
   background-image: url(../images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp);
-  background-size: cover;
+  background-size:containing;
 }
 .header {
     display: flex;
@@ -92,17 +92,19 @@ body {
     color: #FFFFFF;
     background-color: #f7ff09;
   }
-ul {
+.textBox {
     padding-left: 1rem;
     list-style-type: none;
   }
   
-ul li {
+.textBox li {
     padding-left: 2rem;
     background-image: url(../images/viñetas.webp);
     background-position: 1 4;
     background-size: 1.7rem 1.0rem;
     background-repeat: no-repeat;
+    color: #FFFFFF;
+    
   }
   /* Estilos Escritorio */
 @media all and (min-width: 701px) {
@@ -188,4 +190,9 @@ ul li {
     background-color: #a41414;
     opacity: 0.8;
   }
-  
+  .Somos h1 {
+    color: #FFFFFF;
+  }
+  .Seguinos h2{
+    color: #FFFFFF
+  }

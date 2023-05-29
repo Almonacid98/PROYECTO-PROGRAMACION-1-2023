@@ -6,26 +6,10 @@ export const Menu = () =>{
 
   return (
     <div className="menu">
-      <h1>Formulario de Registro de Clientes</h1>
-      <div className="container">
-        <form action="/formulario" method="get">
-        <label htmlFor="nombre y apellido">Nombre y Apellido</label>
-        <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Ingresar nombre y apellido" style={{ backgroundColor: 'rgb(95, 42, 6)', opacity: 0.9 }} />
-        <br />
-        <label htmlFor="Pedido">Pedido</label>
-        <input type="text" id="Pedido" name="Pedido" placeholder="Ingresar Pedido" style={{ backgroundColor: 'rgb(95, 42, 6)', opacity: 0.9 }} />
-        <br />
-        <textarea cols="35" rows="15" style={{ backgroundColor: 'rgb(95, 42, 6)', opacity: 0.9 }}>comentario</textarea>
-        <br />
-        <input type="submit" style={{ backgroundColor: '#a41414', opacity: 0.8 }} />
-        </form>
-      </div>
-      <br />
-
-      <a name="Somos">
+      <div className="Somos">
       <h1>Somos</h1>
       <h4>
-        <ul>
+        <ul className='textBox'>
           <li>Un equipo de profesionales que hemos creado el restaurante donde nos gustaría comer a diario y en las ocasiones especiales. Con menú o a la carta. Con amigos o con clientes, con tiempo para disfrutar o con algo más de prisa porque el trabajo lo requiere.</li>
           <li>Modernos en el estilo y clásicos en el sabor.</li>
           <li>Firmes defensores de que calidad no está en el precio, sino en el producto.</li>
@@ -34,9 +18,8 @@ export const Menu = () =>{
           <li>Somos nuevos, pero también somos expertos. Natural Lunch, nuestro restaurante, nos ha permitido crecer y creer. Sabemos más y queremos demostrarlo.</li>
         </ul>
       </h4>
-      </a>
-
-      <a name="Seguinos">
+      </div>
+      <div className="Seguinos">
       <h2>¡Seguinos también en nuestras redes sociales!</h2>
       <table>
         <tr>
@@ -57,7 +40,7 @@ export const Menu = () =>{
           </td>
         </tr>
       </table>
-      </a>
+      </div>
 
       <br />
     </div>
