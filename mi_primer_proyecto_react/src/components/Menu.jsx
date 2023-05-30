@@ -5,17 +5,19 @@ export const Menu = () =>{
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="menu">
+    <div className="about">
       <div className="Somos">
-      <h1>Somos</h1>
+      <h1 className='ola'>
+        <img
+        src={require(`../images/logo.png`)}
+        alt="Logo"/>
+      </h1>
       <h4>
         <ul className='textBox'>
-          <li>Un equipo de profesionales que hemos creado el restaurante donde nos gustaría comer a diario y en las ocasiones especiales. Con menú o a la carta. Con amigos o con clientes, con tiempo para disfrutar o con algo más de prisa porque el trabajo lo requiere.</li>
-          <li>Modernos en el estilo y clásicos en el sabor.</li>
-          <li>Firmes defensores de que calidad no está en el precio, sino en el producto.</li>
-          <li>Exigentes porque también somos consumidores y estamos convencidos de que la experiencia debe resultar completa.</li>
-          <li>Un buen restaurante ha de serlo por la comida, pero también por el trato y el entorno, por la decoración y el ambiente.</li>
-          <li>Somos nuevos, pero también somos expertos. Natural Lunch, nuestro restaurante, nos ha permitido crecer y creer. Sabemos más y queremos demostrarlo.</li>
+          <li>
+          Somos Natural launch, un equipo de profesionales modernos en estilo y clásicos en sabor.<br>
+          </br>Priorizando la calidad de nuestros productos y convencidos como consumidores de que la experiencia debe resultar completa.
+          </li>
         </ul>
       </h4>
       </div>
@@ -23,6 +25,7 @@ export const Menu = () =>{
       <h2>¡Seguinos también en nuestras redes sociales!</h2>
       <table>
         <tr>
+          <td className='col-md-1'>
           <td className="col-md-1">
             <a href="https://es-la.facebook.com/" target="_blank">
               <img src={require(`../images/face.webp`)} width="100" height="100" alt="Facebook" />
@@ -37,6 +40,7 @@ export const Menu = () =>{
             <a href="https://twitter.com/?lang=es" target="_blank">
               <img src={require(`../images/red.png`)} width="70" height="70" alt="Twitter" />
             </a>
+          </td>
           </td>
         </tr>
       </table>

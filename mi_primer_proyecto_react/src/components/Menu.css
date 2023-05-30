@@ -2,6 +2,16 @@ body {
   background-image: url(../images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp);
   background-size:containing;
 }
+.ola{
+  position: relative;
+}
+.ola img {
+  width: 400;
+  height: 400;
+  position: relative;
+
+  align-items: center;
+}
 .header {
     display: flex;
     justify-content: space-between;

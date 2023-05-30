@@ -21,3 +21,15 @@
 .dropdown-menu {
   animation: slideDown 0.3s ease-in-out;
 }
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .nav-link {
+  margin: 0 10px;
+}
+.login{
+  display: flex;
+  justify-content: center;
+}

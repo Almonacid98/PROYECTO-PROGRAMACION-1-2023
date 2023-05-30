@@ -202,3 +202,10 @@ ul li {
   color: #f61313;
   background-color: #c87f18;
 }
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9ecef;
+}

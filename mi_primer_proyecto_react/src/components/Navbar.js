@@ -6,7 +6,7 @@ import "./Navbar.css"
 
 export const NavbarBootstrap = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar-container">
       <Navbar.Brand href="#home">
       <img 
         src={require(`../images/logo.png`)}
@@ -18,11 +18,12 @@ export const NavbarBootstrap = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="./Menu.jsx">Nosotros</Nav.Link>
+          <Nav.Link href="./About.jsx">Nosotros</Nav.Link>
           <Nav.Link href="./Carta.jsx">Nuestra Carta</Nav.Link>
+          <Nav.Link href="#orden">ORDENA AQUI</Nav.Link>
         </Nav>
         <Nav>
-          <NavDropdown title="Ingreso" id="basic-nav-dropdown">
+          <NavDropdown title="Ingreso" id="basic-nav-dropdown" className="login">
             <NavDropdown.Item href="../components/LoginSignUp/Login.jsx">Iniciar Sesion</NavDropdown.Item>
             <NavDropdown.Item href="../components/LoginSignUp/SignUp.jsx">Registrarse</NavDropdown.Item>
           </NavDropdown>
