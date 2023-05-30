@@ -7,7 +7,7 @@ export const Menu = () =>{
   return (
     <div className="about">
       <div className="Somos">
-      <h1 className='ola'>
+      <h1 className="ola">
         <img
         src={require(`../images/logo.png`)}
         alt="Logo"/>
