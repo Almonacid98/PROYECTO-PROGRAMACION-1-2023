@@ -1,0 +1,212 @@
+body {
+  background-image: url(../images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp);
+  background-size:containing;
+}
+.ola{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.ola img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 45px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #572609;
+    padding: 0rem;
+    opacity: 0.9;
+  }
+  
+  /* Estilos móvil/celular */
+  @media all and (max-width: 700px) {
+.header__button-nav--open {
+    border-radius:100px;
+    background-color: transparent;
+    outline:none;
+    background-size: cover;
+    position: relative;
+    border-color: transparent;
+    
+}
+    /* Oculta el nav en la parte izquiera */
+.nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgb(237, 211, 9);
+      transform: translateX(-100vw);
+      transition: 2s;
+    }
+  
+    /* Muestra el nav */
+.nav--show {
+      transform: translateX(2);
+    }
+  
+.nav__button {
+      text-align: right;
+      margin: 0rem;
+    }
+  
+.nav__ul {
+      list-style: none;
+      padding: 1;
+      margin: 1;
+    }
+  
+.nav__link {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #f7ff09;
+  }
+.textBox {
+    padding-left: 1rem;
+    list-style-type: none;
+  }
+  
+.textBox li {
+    padding-left: 2rem;
+    background-image: url(../images/viñetas.webp);
+    background-position: 1 4;
+    background-size: 1.7rem 1.0rem;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    
+  }
+  /* Estilos Escritorio */
+@media all and (min-width: 701px) {
+  
+    /* Oculta botón de abrir o cerrar */
+.nav__button,
+.header__button-nav--open {
+      display: none;
+      background-color: transparent;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+  
+    /* Adapta el nav en horizontal */
+.nav__ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+  
+.nav__link {
+      display: block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: rgb(221, 16, 16);
+      transition: 1s;
+    }
+  
+.nav__link:hover {
+      opacity: 0,4;
+    }
+  }
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+.dropdown-content {
+    display: none;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(239, 21, 21, 0.4);
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+.dropdown-content a:hover {
+    color: #f61313;
+    background-color: #c87f18;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: rgb(95, 42, 6);
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form input,
+  .form textarea {
+    background-image: url('../images/logo.png');
+    opacity: 0.9;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #a41414;
+    opacity: 0.8;
+  }
+  .Somos h1 {
+    color: #FFFFFF;
+  }
+  .Seguinos h2{
+    color: #FFFFFF
+  }
+.col-md-1 h5{
+  color: #FFFFFF;
+}
