@@ -37,7 +37,7 @@
   }
 }
 body {
-  background-image: url(../images/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp);
+  background-image: url(./images/background-blurred.webp);
   background-size: cover;
 }
 .header {
@@ -208,4 +208,12 @@ ul li {
   align-items: center;
   height: 100vh;
   background-color: #e9ecef;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-in.fade-in-active {
+  opacity: 1;
 }

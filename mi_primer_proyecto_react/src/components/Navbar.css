@@ -23,6 +23,7 @@
   animation: slideDown 0.3s ease-in-out;
 }
 .navbar-container {
+  opacity: 0.9;
   display: flex;
   justify-content: center;
 }

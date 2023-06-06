@@ -3,11 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to left, magenta, blue);
 }
 
 .login-form {
-  background-color: #fff;
+  background-color: #AA8C2C;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -27,17 +26,19 @@
 .login-form button {
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 3px;
+  background-color: black;
+  color: white;
 }
 
 .login-form button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #AA8C2C;
+  color: white;
   border: none;
   cursor: pointer;
 }
 
 .login-form button:hover {
-  background-color: #0056b3;
+  background-color: #1b1a14;
 }
