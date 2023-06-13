@@ -193,6 +193,7 @@ body {
   
   .form input,
   .form textarea {
+    padding-top: 50px;
     background-image: url('../images/logo.png');
     opacity: 0.9;
   }
@@ -211,10 +212,12 @@ body {
   color: #FFFFFF;
 }
 .social-media{
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   height: 30vh;
-
 }
+/* .col-md-1{
+  padding-right: 30px;
+} */

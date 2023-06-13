@@ -23,7 +23,8 @@ export const Home = () =>{
       <h2>¡Seguinos también en nuestras redes sociales!</h2>
       <table className='social-media'>
         <tr>
-          <td className='col-md-7'>
+          <td className='col-md-1'>
+          </td>
             <td className="col-md-1">
               <a href="https://es-la.facebook.com/">
                 <img src={require(`../images/face.webp`)} width="100" height="100" alt="Facebook" />
@@ -41,7 +42,6 @@ export const Home = () =>{
               <h5>
                 ENCONTRANOS!!
               </h5>
-            </td>
           </td>
         </tr>
       </table>
