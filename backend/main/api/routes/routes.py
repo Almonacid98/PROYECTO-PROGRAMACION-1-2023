@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from app.api import example_blueprint
+from main.api import example_blueprint
 
 
 @example_blueprint.route('/ola', methods=['GET'])

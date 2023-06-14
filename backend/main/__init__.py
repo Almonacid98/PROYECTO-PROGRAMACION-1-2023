@@ -11,7 +11,7 @@ def create_app(config_object='config.DevelopmentConfig'):
     app = Flask(__name__)
     app.config.from_object(config_object)
 
-    from app.api import example_blueprint
+    from main.api import example_blueprint
     app.register_blueprint(example_blueprint)
 
     @app.errorhandler(404)
