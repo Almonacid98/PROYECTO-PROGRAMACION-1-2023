@@ -1,7 +1,7 @@
 import React from 'react';
 import {Formik, Form, Field} from 'formik';
 import './Login.css';
-import { Axios } from 'axios';
+import axios from 'axios';
 export const Login = () => {
 
   const initialValues = {
@@ -9,9 +9,9 @@ export const Login = () => {
     password:''
   }
   const handleLogin = async(values) => { 
-    console.log('values:', values) 
+    // console.log('values:', values) 
     try { 
-      const response = await Axios.post('http://localhost:3000/login', values) 
+      const response = await axios.post("http://localhost:5000/example/ola", values) 
       console.log(response.data) 
     } catch (error) { 
       console.log(error) 
