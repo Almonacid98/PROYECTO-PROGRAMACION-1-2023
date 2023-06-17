@@ -1,0 +1,9 @@
+TO DO
+FRONT
+-migrar el archivo home para que sea about
+-Rediseñar el archivo home con platos destacados, para vender el restaurante
+-seccion ordena aqui:
+	1: definir el menu completo
+	2: crear el mapa de mesas tipo grid o matriz
+	3: simular un metodo de pago con efectivo en el cual nos de un token - id de pedido, para pagar en el restaurante
+-Ingreso: definir los datos que se van a enviar al back
