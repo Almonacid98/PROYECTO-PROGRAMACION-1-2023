@@ -1,4 +1,6 @@
-#!/home/gabriel/Documentos/PROYECTO-PROGRAMACION-1-2023/backend/bin/python3
+#!/bin/sh
+'''exec' "/home/d3xtro/Documents/FACULTAD/3 ro/Programacion 1/PRACTICA/mi_primer_proyecto_reac/GABI/backend/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
