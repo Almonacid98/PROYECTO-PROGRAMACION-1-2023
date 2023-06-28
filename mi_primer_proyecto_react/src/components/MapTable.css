@@ -1,0 +1,49 @@
+/* .mesa {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Espacio vertical entre las imágenes de las mesas 
+    {  */
+  
+  /* .contenedor-matriz {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la matriz 
+    align-items: center; /* Centra verticalmente la matriz 
+    height: 100vh; /* Ajusta la altura del contenedor según tus necesidades 
+    position: relative;
+    top: 20px;  */
+  /* .fila-mesas {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente las filas de mesas 
+  } */
+  
+  
+  /* Opcional: Eliminar el margen derecho de la última imagen de cada fila */
+  /* .fila-mesas .mesa:last-child {
+    margin-right: 0;
+  }
+     */
+     .contenedor-matriz {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        margin-top: 20px; /* Ajusta la distancia hacia abajo según los píxeles que desees */
+      }
+      
+      .matriz-mesas {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 50px);
+        justify-content: center;
+        grid-gap: 10px;
+      }
+      
+      .mesa {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .mesa-seleccionada {
+        border: 2px solid red; /* Cambiar el estilo de la mesa seleccionada según tus necesidades */
+      }

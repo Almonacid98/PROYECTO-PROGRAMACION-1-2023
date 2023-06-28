@@ -5,7 +5,7 @@ import { Login } from "./components/LoginSignUp/Login.jsx";
 import { SignUp } from "./components/LoginSignUp/SignUp.jsx";
 import { Home } from "./components/Home.jsx";
 import { Carta } from "./components/Carta.jsx";
-
+import { TableMap } from "./components/MapTable.jsx";
 function App() {
   return (
     <Router>
@@ -15,6 +15,7 @@ function App() {
         <Route path="/carta" element={<Carta />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/tables" element={<TableMap />} />
       </Routes>
     </Router>
   );

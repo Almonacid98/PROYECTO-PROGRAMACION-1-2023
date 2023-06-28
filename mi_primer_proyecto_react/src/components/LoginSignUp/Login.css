@@ -1,13 +1,11 @@
-.formik-section {
-  
+.login-section {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-top: 50px;
 }
 
-.form-formik {
+.login-form {
   background-color: #AA8C2C;
   padding: 20px;
   border-radius: 5px;
@@ -15,18 +13,18 @@
   opacity: 0.9;
 }
 
-.form-formik h2 {
+.login-form h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.form-formik form {
+.login-form form {
   display: flex;
   flex-direction: column;
 }
 
-.form-formik input,
-.form-formik button {
+.login-form .form-group input,
+.login-form .form-group button {
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid black;
@@ -35,13 +33,14 @@
   color: white;
 }
 
-.form-formik button {
+.login-form button {
   background-color: #AA8C2C;
   color: white;
   border: none;
   cursor: pointer;
 }
 
-.form-formik button:hover {
+.login-form button:hover {
   background-color: #1b1a14;
+  border-radius: 3px;
 }

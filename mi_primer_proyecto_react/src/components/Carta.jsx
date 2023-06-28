@@ -1,5 +1,5 @@
 import React from 'react';
-import './Carta.css'; // Importa el archivo CSS
+import './Carta.css'; 
 
 export const Carta = () =>{
   return (

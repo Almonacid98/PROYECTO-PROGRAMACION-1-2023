@@ -24,6 +24,7 @@ export const NavbarBootstrap = () => {
           <Nav.Link as={Link} to="/about">Nosotros</Nav.Link>
           <Nav.Link as={Link} to="/carta">Nuestra Carta</Nav.Link>
           <Nav.Link href="#orden">ORDENA AQUI</Nav.Link>
+          <Nav.Link as={Link} to="/tables">Mesas</Nav.Link>
         </Nav>
         <Nav>
           <NavDropdown title="Ingreso" id="basic-nav-dropdown" className="login">

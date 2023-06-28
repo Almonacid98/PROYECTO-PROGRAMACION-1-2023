@@ -20,24 +20,32 @@ export const Login = () => {
   };
 
   return (
-    <Formik
-      initialValues={initialValues}
-      onSubmit={handleLogin}
-    >
-      <Form className='form-formik'>
-        <h2>Iniciar sesión</h2>
-        <Field
-          type='email'
-          placeholder="alguien@example.com"
-          name='email'
-        />
-        <Field
-          type="password"
-          placeholder="Contraseña"
-          name='password'
-        />
-        <button type='submit'>Iniciar sesión</button>
-      </Form>
-    </Formik>
+    <div className="login-section">
+      <Formik
+        initialValues={initialValues}
+        onSubmit={handleLogin}
+      >
+        <Form className='login-form'>
+          <h2>Iniciar sesión</h2>
+          <div className="form-group">
+            <Field
+              type='email'
+              placeholder="alguien@example.com"
+              name='email'
+              className="input-field"
+            />
+          </div>
+          <div className="form-group">
+            <Field
+              type="password"
+              placeholder="Contraseña"
+              name='password'
+              className="input-field"
+            />
+          </div>
+          <button type='submit' className="submit-button">Iniciar sesión</button>
+        </Form>
+      </Formik>
+    </div>
   );
 };
